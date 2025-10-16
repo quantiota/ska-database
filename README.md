@@ -11,7 +11,7 @@ entropy-aware knowledge structures**.
 - **Forward-only:** no rollback, no overwrite — every update extends history.
 - **Entropy-aware:** each record carries a local entropy delta `ΔH` (uncertainty reduction).
 - **Causal indexing:** links events into a DAG of “what led to what”.
-- **Multi-agent native:** tracks human↔AI and AI↔AI influence via a coupling matrix `M_ij(t)`.
+- **Multi-agent native:** tracks human↔AI and AI↔AI influence via a coupling matrix `$M_ij(t)$`.
 - **Auditable cognition:** full trace from outcome → causes → messages → timestamps.
 
 
